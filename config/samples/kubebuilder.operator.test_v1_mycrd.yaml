@@ -1,0 +1,12 @@
+apiVersion: kubebuilder.operator.test.kubebuilder-operator/v1
+kind: Mycrd
+metadata:
+  labels:
+    app.kubernetes.io/name: mycrd
+    app.kubernetes.io/instance: mycrd-sample
+    app.kubernetes.io/part-of: kubebuilder-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: kubebuilder-operator
+  name: mycrd-sample
+spec:
+  # TODO(user): Add fields here
